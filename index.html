@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!-- <link rel="stylesheet" href="bootsrep-5.0.2-dist.zip"> -->
+  <title>SRK food</title>
+</head>
+
+<body class="bg-danger-subtle">
+  <nav class="navbar navbar-expand-lg bg-danger-subtle">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="srk-foods-logo-zip-file/png/logo-no-background.png" alt="Logo" width="100"
+          class="d-inline-block align-text-top">
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a id="home" class="nav-link active d-flex flex-column text-center" aria-current="page" href="#"><i
+                class="bi fs-2 bi-house"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="menu-btn" class="nav-link active d-flex flex-column text-center" aria-current="page" href="#menu"><i
+                class="bi fs-2 bi-menu-down"></i>Menu</a>
+          </li>
+          <li class="nav-item">
+            <a id="about-btn" class="nav-link active d-flex flex-column text-center" aria-current="page" href="#"><i
+                class="bi fs-2 bi-info-circle"></i>About</a>
+          </li>
+          <li class="nav-item">
+            <a id="contact-btn" class="nav-link active d-flex flex-column text-center" aria-current="page" href="contact.html"><i
+                class="bi fs-2 bi-telephone"></i>Contact</a>
+          </li>
+          <li class="nav-item">
+            <a id="account-btn" class="nav-link active d-flex flex-column text-center" aria-current="page" href="#"><i
+                class="bi fs-2 bi-person-circle"></i>Account</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleRide" class="carousel slide m-auto w-75" data-bs-ride="true">
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/random/1920x1080/?Sandwich"
+          class="rounded object-fit-cover d-block h-50 w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/random/1920x1080/?Burger"
+          class="rounded object-fit-cover d-block h-50 w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/random/1920x1080/?Dessert"
+          class="rounded object-fit-cover d-block h-50 w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <hr>
+<div id="menu" class="d-flex align-items-center justify-content-evenly m-auto my-2 w-100 h-25">
+  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="pills-burger-tab" data-bs-toggle="pill" data-bs-target="#pills-burger"
+        type="button" role="tab" aria-controls="pills-burger" aria-selected="true">Burger</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-pizza-tab" data-bs-toggle="pill" data-bs-target="#pills-pizza" type="button"
+        role="tab" aria-controls="pills-pizza" aria-selected="false">Pizza</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-dessert-tab" data-bs-toggle="pill" data-bs-target="#pills-dessert"
+        type="button" role="tab" aria-controls="pills-dessert" aria-selected="false">Dessert</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-udpi-tab" data-bs-toggle="pill" data-bs-target="#pills-udpi" type="button"
+        role="tab" aria-controls="pills-udpi" aria-selected="false">South Indian</button>
+    </li>
+  </ul>
+</div>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-burger" role="tabpanel" aria-labelledby="pills-burger-tab"
+      tabindex="0">
+      <div class="container text-center">
+        <div class="row d-flex justify-content-evenly row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="https://d1rgpf387mknul.cloudfront.net/products/PLP/web/2x_web_20231017044958697017_482x264jpg" class="h-50 ratio ratio-1x1  card-img-top rounded img-fluid" alt="...">
+            
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">BK Chicken Burger with Cheese</h5>
+              <p class="card-text">&#x20B9 185/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="https://d1rgpf387mknul.cloudfront.net/products/PLP/ml/2x_ml_20230719043210800961_426x234jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Crispy Veg Double Patty Burger+Fries(M)</h5>
+              <p class="card-text">&#x20B9 214/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="https://d1rgpf387mknul.cloudfront.net/products/PLP/web/2x_web_20230719042737695716_482x264jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Crispy Veg Burger+Fries(M)</h5>
+              <p class="card-text">&#x20B9 199/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;" >
+            <img src="https://d1rgpf387mknul.cloudfront.net/products/PDPC/ml/2x_ml_20230313180121661551_210x166png" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Veg Makhani Burst Burger</h5>
+              <p class="card-text">&#x20B9 99/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="https://d1rgpf387mknul.cloudfront.net/products/PDPC/ml/2x_ml_20231020201146951681_210x166png" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Chicken Whoppere</h5>
+              <p class="card-text">&#x20B9 299/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="https://d1rgpf387mknul.cloudfront.net/products/PDPC/ml/2x_ml_20231005060145097659_210x166png" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">BK Chicken Burger</h5>
+              <p class="card-text">&#x20B9 149/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-pizza" role="tabpanel" aria-labelledby="pills-pizza-tab" tabindex="0">
+      <div class="container text-center">
+        <div class="row d-flex justify-content-evenly row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="DCM Pizza.jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Double Chees Pizza</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="FarmhousePizza.jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Farmhouse Pizza</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="Peppy_Paneer Pizza.jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Peppy Paneer Pizza</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="Fresh_Veggie Pizza.jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Fresh Veggie Pizza</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="Corn_&_Cheese Pizza.jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Corn&Cheese Pizza</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="Deluxe_Veggie pizza.jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Deluxe Veggie pizza</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="pills-dessert" role="tabpanel" aria-labelledby="pills-dessert-tab" tabindex="0">
+      <div class="container text-center">
+        <div class="row d-flex justify-content-evenly row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="ice1.jpeg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Mix Flavours Ice Cream in glass cup</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-photo/side-view-chocolate-ice-cream-with-nuts-wafer-rolls_140725-11439.jpg?size=626&ext=jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">chocolate ice cream with nuts and wafer rolls</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-photo/nougat-ice-cream-glass-cup_23-2149450702.jpg?t=st=1707813579~exp=1707814179~hmac=81111a4a5eca7b39ad2ba547e2e977f39dd125aca681fd870a4d9494881e9cd8" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title"> nougat ice cream in glass cup</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-photo/bowl-with-delicious-ice-cream-cookies_23-2149681929.jpg?t=st=1707814279~exp=1707814879~hmac=29dc73c3c12dd795d34eb2ddc543f4f4cf4e16379382ddf6f21bb73c114b3248" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid"  alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Chocolate muffin with a ball of ice cream
+              </h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-photo/delicious-ice-cream-with-cookies-cup_23-2149836042.jpg?w=360&t=st=1707814550~exp=1707015150~hmac=21c9a94df51cddbb23bce0678f7aea246777310f3d1f0f9930af285eff942bcb" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">ice cream with cookies in cup</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-photo/glass-creamy-dessert-with-cookie-pieces_140725-8533.jpg?w=360&t=st=1707814645~exp=1707815245~hmac=6e1257e9263962f416a03ff8267e3b0676340c1496dd76ea2c461dbdd782220a" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">creamy dessert with cookie pieces
+              </h5>
+              <p class="card-text">&#x20B9 99/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="tab-pane fade" id="pills-udpi" role="tabpanel" aria-labelledby="pills-udpi-tab" tabindex="0">
+      <div class="container text-center">
+        <div class="row d-flex justify-content-evenly row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="i13.jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Ragi rava idli</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="i1.jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Thatte idli</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="i2.jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Stuffed idli   </h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="i3.jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Black rice idli</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="i9.jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Easy carrot idli</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+          <div class="card p-0 col m-auto my-2 bg-light" style="width: 18rem;">
+            <img src="i12.jpg" class="h-50 ratio ratio-1x1 card-img-top rounded img-fluid" alt="...">
+            <div class="card-body m-1 p-1">
+              <h5 class="card-title">Carrot Idli</h5>
+              <p class="card-text">&#x20B9 50/-</p>
+              <a href="#" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  <footer class="footer bg-danger-subtle">
+    <div class="card text-center bg-danger-subtjpg">
+      <div class="card-header">
+        SRK FOODS
+      </div>
+      <div class="card-body bg-danger-subtle">
+        <h5 class="card-title">Special title </h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="card-footer text-body-secondary">
+        <ul class="d-flex justify-content-evenly align-items-center">
+          <li class="nav-link"><a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="#menu">Burger</a></li>
+          <li class="nav-link"><a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="#menu">Pizza</a></li>
+          <li class="nav-link"><a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="#menu">Dessert</a></li>
+          <li class="nav-link"><a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="#menu">South Indian</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script>
+  let accountBtn=  document.getElementById("account-btn");
+  accountBtn.addEventListener("click",()=>{
+    window.open("contact.html");
+  })
+  
+import {Image} from 'dominos';
+
+const productCode='S_PIZPX';
+const savePath='./';
+
+const pepperoniPizza=await new Image(productCode);
+console.log(pepperoniPizza.base64Image);
+
+//you could pass this to a user via sms, web socket, http, tcp, make an ascii art for the terminal, OR save it to disk or a database
+//here we just save it to disk as an example.
+//this is part of the js-base64-file class refrence, there is a link at the top of this file
+pepperoniPizza.saveSync(pepperoniPizza.base64Image,savePath,productCode+'.jpg');
+burger = fetch('https://my-burger-api.herokuapp.com/burgers')
+
+  </script>
+</body>
+
+</html>
